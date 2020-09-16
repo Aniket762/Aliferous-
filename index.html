@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--    Favicon-->
+    <link rel="icon" href="assets/img/aliferous_circle.png" type="image/png" sizes="16x16">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--    Font Awesome-->
+    <script src="https://kit.fontawesome.com/0c0f504817.js" crossorigin="anonymous"></script>
+    <!--Scroll Reveal Animation-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--Jquery-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <!--    custom style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+
+    <title>Aliferous|web design,branding,analytics,web Developent</title>
+</head>
+
+<body>
+<!--<header class="l-header" style="background-color:rgba(43, 40, 40, 0.767);">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">ALIFEROUS</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link active">HOME</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link ">PROJECTS</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">SKILLS</a></li>
+                <li class="nav__item"><a href="#team" class="nav__link">TEAM</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
+                <li class="nav__item"><a href="https://istebits.com/" class="nav__link">ISTEBITS</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+    </nav>
+</header>-->
+<header>
+    <nav class="navbar navbar-light " style="background-color:rgba(43, 40, 40, 0.767);">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</header>
+<!--The short video will be here -->
+<div id="video-container">
+    <div class="video-overlay"></div>
+    <div class="video-content">
+        <div class="inner">
+          <h1 style="font-weight: 700;">Welcome to Aliferous</h1>
+          <p style="font-size: 20px; margin-top: 3%;">We stand in a sweet spot where design and code intersects</p>
+          
+            <div class="scroll-icon">
+                <a class="scrollTo" data-scrollTo="portfolio" href="#"><img src="img/scroll-icon.png" alt=""></a>
+            </div>    
+        </div>
+    </div>
+    <video autoplay loop muted>
+        <source src="assets/codingbg.mp4" type="video/mp4" />
+    </video>
+</div>
+
+
+
+    <!--Counter-->
+    <div class="row" style="margin-top: 5%;">
+        <div class="col-md-3">
+            <div class="counter-box"> <i class="fa fa-thumbs-o-up"></i> <span class="counter">10</span>
+                <p>Clients</p>
+            </div>
+        </div>
+        <br>
+        <div class="col-md-3">
+            <div class="counter-box"> <i class="fa fa-group"></i> <span class="counter">600</span>
+                <p>Number of hours worked </p>
+            </div>
+        </div>
+        <br>
+        <div class="col-md-3">
+            <div class="counter-box"> <i class="fa fa-shopping-cart"></i> <span class="counter">15</span>
+                <p>Number of webistes till dates</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="counter-box"> <i class="fa fa-clock"></i>
+                <span class="counter" id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</span>
+                <p>Seconds on this site</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Counter 2-->
+   
+    
+    <!--    Projects Section-->
+    <section class="projects section" id="projects">
+        <h2 class="section-title">Our recent work</h2>
+        <p class="section-content">We are passionate about building websites that improve the lives of 
+            those around us. We specialize in creating websites for clients ranging from individuals and 
+            small-businesses all the way to large enterprise corporations. We have completed 15+ websites till now and are
+            currently also working on AR technology.</p><br>
+        <div class="projects__container bd-grid">
+            <div class="projects__img">
+                <a href="https://learningpeeps.com/" target="_blank"> <img src="assets/img/learningpeeps.png" alt="projects"></a>
+            </div>
+            <div class="projects__img">
+                <a href="https://orsidgp.in" target="_blank"><img src="assets/img/orsi_home.png" alt="projects"></a>
+            </div>
+            <div class="projects__img">
+                <a href="https://srdfoundation.org/" target="_blank"><img src="assets/img/srd_home.png" alt="projects"></a>
+            </div>
+            <div class="projects__img">
+                <a href="http://udichi.co.in/" target="_blank"><img src="assets/img/udichi.png" alt="projects"></a>
+            </div>
+            <div class="projects__img">
+                <a href="https://webwiznitr.xyz/" target="_blank"><img src="assets/img/webwiz.png" alt="projects"></a>
+            </div>
+            <div class="projects__img rakshak">
+                <a href="https://www.youtube.com/watch?v=pANsiOG8EyE" target="_blank"><img src="assets/img/rakshak.png" alt="projects"></a>
+                
+            </div>
+        </div>
+    </section>
+
+       <!--Circular progress bar -->
+    <section id="skills">
+       <h2 class="section-title">Our Skills</h2>
+       <div class="container1" style="margin-left:300px">
+        <div class="card">
+            <div class="box">
+                <center>
+                <div class="percent" >
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>90 <span>%</span></h2>
+                    </div>
+                </div>
+            </center>
+                <h2 class="text">Bussiness consultancy </h2>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="box">
+            <center>
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>60 <span>%</span></h2>
+                    </div>
+                </div>
+            </center>
+                <h2 class="text">Website development </h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <center>
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>70 <span>%</span></h2>
+                    </div>
+                </div>
+            </center>
+                <h2 class="text">Digital marketing </h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!--    Team Section -->
+    <section class="about section" id="team">
+        <h2 class="section-title">Who are we?</h2>
+        <p class="section-content">We are two sophomores doing our bachelors in technology from National Institute of Technology,Rourkela.
+           Initially, we had the opinion that "Tech is too nerdy" but once we started learning, we fell in love
+           with the tech world. We now have serious passion for UI effects, animations and creating 
+           intuitive, dynamic user experiences. We hope to keep learning and growing in the tech community.
+        </p>
+        <div class="container">
+            <div class="row">
+                    <ul class="socialacc" style="margin-top:14%">
+                       <a href="https://github.com/Aniket762"><li><i class="fab fa-github"></i></li></a> 
+                        <a href="https://www.instagram.com/itzaniket_762/"><li><i class="fab fa-instagram"></i></li></a> 
+                       <a href="https://www.linkedin.com/in/aniket-pal-5996251aa/"><li><i class="fab fa-linkedin-in"></i></li></a> 
+                    </ul>
+                    <div class="box">
+                        <div class="imgBx" >
+                            <img src="assets/img/aniket.jpg" alt="">
+                        </div>
+                        <div class="contentBx">
+                            <h2 style="color: black;text-align:center">Aniket Pal</h2>
+                            <p style="color: black;text-align: center;">#smarty #creative #supertalented</p>
+                            
+                        </div>
+                    </div>
+            
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="assets/img/sumana.jpg" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <h2 style="color: black;">Sumana Basu</h2>
+                        <p style="color: black; text-align: center;">#dancer</p>
+                        
+                    </div>
+                </div>
+                <ul class="socialacc" style="margin-top:14%">
+                   <a href="https://github.com/sumana2001"><li><i class="fab fa-github"></i></li></a> 
+                  <a href="https://www.instagram.com/sumanasuchira/"><li><i class="fab fa-instagram"></i></li></a>  
+                   <a href="https://www.linkedin.com/in/sumana-basu-492842171/"><li><i class="fab fa-linkedin-in"></i></li></a> 
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--Blog-->
+<div id="team" class="section wb">
+    <div class="container">
+        <h2 class="section-title">Blogs</h2>
+        <p class="section-content" style="margin:0 0 0 0">We, at Aliferous are always looking for a chance to meet talented individuals.
+            So, we have created two blogging sites where people come and write their hearts out about innovative 
+            ideas and their food cravings. We also created a blog where we ourselves write about the variety
+            of cuisines found in India. 
+        </p><br>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                       <a href="https://magicalbites.wordpress.com/"><img src="assets/img/magicalbites.png"></a> 
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Magical Bites</h3>
+                        <span class="post">A guide to your tastebud</span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                       <a href="https://helpingdude.com/"><img src="assets/img/helpingdude.png"></a> 
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Helping Dude</h3>
+                        <span class="post">Ultimate Innovation platform</span>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-6">
+                <div class="our-team">
+                    <div class="pic">
+                       <a href="https://delishdilemma.com/"><img src="assets/img/delishdilemma.png"></a> 
+                    </div>
+                    <div class="team-content">
+                        <h3 class="title">Deslish Dilemma</h3>
+                        <span class="post">Food blog</span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Sponsors starts -->
+
+<!--Blog ends-->
+<div id="sponsor" class="section wb">
+        <div class="section-title text-center">
+            <h3>Powered by</h3>
+            
+        </div><!-- end title -->
+        
+        <div class="row">
+            <div class="col-md-2 col-sm-6">
+                <div class="our-sponsor">
+                    <div class="pic">
+                       <a href="https://codingblocks.com/"><img src="assets/img/codingblocks - Copy.png"></a> 
+                    </div>
+                   
+                </div>
+            </div>
+            
+            <div class="col-md-2 col-sm-6">
+                <div class="our-sponsor">
+                    <div class="pic">
+                       <a href="https://www.bugsee.com/"><img src="assets/img/bugsee.jpg"></a> 
+                    </div>
+                   
+                </div>
+            </div>
+            
+            <div class="col-md-2 col-sm-6">
+                <div class="our-sponsor">
+                    <div class="pic">
+                       <a href="https://www.grabon.in/"><img src="assets/img/grabon1 - Copy.png"></a> 
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-md-2 col-sm-6">
+                <div class="our-sponsor">
+                    <div class="pic">
+                       <a href="https://edtimes.in/"><img src="assets/img/edtimes.jpg"></a> 
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6">
+                <div class="our-sponsor">
+                    <div class="pic">
+                       <a href="https://aws.amazon.com/"><img src="assets/img/aws.jpg"></a> 
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-md-2 col-sm-6">
+                <div class="our-sponsor">
+                    <div class="pic">
+                       <a href="https://www.faceprep.in/"><img src="assets/img/faceprep - Copy.png"></a> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sponsors ends -->
+
+
+
+<!-- Neon light contact form  -->
+<div class="container_contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-content">Feel free to send us a message!</p>
+    <form action="contact.php" method="post" id="form" class="contact-form">
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">
+                <input name="cf_name" type="text" class="form-control" id="name" required="required">
+                <span class="text">Name</span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">
+                <input name="cf_email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*"  required="required">
+                <span class="text">Email</span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox">
+                <input name="cf_phone" type="number" class="form-control" id="phone"  required="required">
+                <span class="text">Mobile</span>
+                <span class="line"></span>
+            </div>
+        </div>
+    </div> 
+    <div class="row100">
+        <div class="col">
+            <div class="inputBox textarea">
+                <textarea name="cf_message" rows="6" class="form-control" id="message" required="required"></textarea>
+                <span class="text">Type your message here...</span>
+                <span class="line"></span>
+            </div>
+        </div> 
+    </div>
+    <div class="row100">
+        <div class="col">
+            <button type="submit" id="form-submit" class="filled-button">Send</button>
+        </div>
+    </div>    
+</form>
+</div>
+
+
+<!--Footer-->
+<footer class="footer">
+    
+    <p>Copyright &#169; 2020 | Powered by <a href="http://aliferous.xyz/" style="color: #36d8c3;">Aliferous</a></p>
+</footer>
+<!-- Optional JavaScript -->
+<script src="assets/js/vanilla-tilt.js"></script>
+<script src="assets/js/counter.js"></script>
+<script src='assets/js/counter2.js'></script>
+<script src="assets/js/jquery.countTo.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+</script>
+</body>
+
+</html>
