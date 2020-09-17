@@ -203,7 +203,8 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--second-color);
-    background-image: linear-gradient(90deg,#485f75,#112d4d,#082131,#310a06,#1e0629);
+    /*gradient background*/
+    background-image: linear-gradient(90deg,#1c2125,#171f2b,#0d0f11,#24170b,#1f082b);
     background-size: 400% 400%;
     animation: bganimation 120s infinite;
 }
@@ -327,103 +328,6 @@ img {
     box-shadow: 0 1px 4px rgba(146, 161, 176, .15);
 }
 
-/*Navbar*/
-.nav {
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: var(--font-semi);
-}
-
-@media screen and (max-width: 768px) {
-    .nav__menu {
-        position: fixed;
-        top: var(--header-height);
-        right: -100%;
-        width: 80%;
-        height: 100%;
-        padding: 2rem;
-        background-color: var(--second-color);
-        transition: .5s;
-    }
-}
-
-.nav__item {
-    margin-bottom: 5px;
-    padding-left: 10%;
-    color: #fff !important;
-}
-
-.nav__link {
-    position: relative;
-    color: #ffffff;
-}
-
-.nav__link:hover {
-    position: relative;
-}
-
-.nav__link:hover::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 1.5rem;
-    background-color: var(--first-color);
-}
-
-.nav__logo {
-    color: #ffffff;
-    font-size: 1.5rem;
-}
-
-.nav__toggle {
-    color: #ffffff;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-a:hover{
-    color: white;
-    text-decoration: none;
-}
-/*Active Menu*/
-.active:after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 1.5rem;
-    background-color: var(--first-color);
-}
-
-/*Show Menu*/
-.show {
-    right: 0;
-}
-
-/*Home*/
-.home {
-    height: calc(100vh - 3rem);
-    row-gap: 1rem;
-}
-
-.home__data {
-    align-self: center;
-}
-
-.home__title {
-    font-size: var(--big-font-size);
-    margin-bottom: var(--mb-5);
-
-}
-
-.home__title-color {
-    color: var(--first-color);
-}
 
 /*Social*/
 .mem_social-icon {
