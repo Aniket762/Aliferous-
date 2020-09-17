@@ -43,6 +43,8 @@ $(function() {
         }
     });
 
+   
+
     /* Counters  */
     if ($(".section-counters .start").length>0) {
         $(".section-counters .start").each(function() {
