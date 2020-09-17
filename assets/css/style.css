@@ -519,6 +519,7 @@ img {
     width:900px;
     display: flex;
     justify-content: space-around;
+    margin-left:300px;
 }
 
 .container1 .card
@@ -650,13 +651,13 @@ svg circle:nth-child(2)
     stroke: #ff04f7;
     stroke-dashoffset: calc(440 - (440 * 70) /100);
 }
-
-/*---------
-   ISSUE
------------
-Fix mobile view of skills progress bar
-*/
-
+@media screen and (max-width:768px){
+    .container1{
+        width: 500px;
+        margin-left: 0;
+    }
+}
+    
 
 /*Social media icons*/
 .socialacc li{
@@ -714,12 +715,6 @@ Fix mobile view of skills progress bar
     box-shadow: 0 0 15px white;
     text-shadow: 0 0 15px white;
   }
-
-/*---------
-   ISSUE
------------
-Fix mobile view of social media icons
-*/
 
 /*Projects Section*/
 .projects {
